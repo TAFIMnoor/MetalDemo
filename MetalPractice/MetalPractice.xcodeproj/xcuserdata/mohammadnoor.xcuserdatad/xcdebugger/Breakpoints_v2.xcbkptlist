@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EAB7A324-E706-41E5-90F1-2D6906C00362"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AE1EBCC-093D-4C23-91CE-D65F8EC963C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7AE1EBCC-093D-4C23-91CE-D65F8EC963C5 - 732c25d5697ae0f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1508">
+               </Location>
+               <Location
+                  uuid = "7AE1EBCC-093D-4C23-91CE-D65F8EC963C5 - 732c25d5697ae0f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ABFADD2-0460-4833-AFF1-3DD67C310DDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31602641-A68E-41E6-8C52-DB2C299BD3B6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "413"
+            endingLineNumber = "413"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31602641-A68E-41E6-8C52-DB2C299BD3B6 - 732c25d5697af2a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "7092">
+               </Location>
+               <Location
+                  uuid = "31602641-A68E-41E6-8C52-DB2C299BD3B6 - 732c25d5697af2a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "6964">
+               </Location>
+               <Location
+                  uuid = "31602641-A68E-41E6-8C52-DB2C299BD3B6 - 732c25d5697af2a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "6968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E201ECF-60FE-4A67-9C20-110664E3F5AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B77F09AF-84DE-44BD-A068-7B2635A53A6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA6C8F45-A242-4000-ACE7-4BF2E8ABEAE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "355"
+            endingLineNumber = "355"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA6C8F45-A242-4000-ACE7-4BF2E8ABEAE6 - 732c25d5697af1b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "6716">
+               </Location>
+               <Location
+                  uuid = "EA6C8F45-A242-4000-ACE7-4BF2E8ABEAE6 - 732c25d5697af1b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "213"
+                  endingLineNumber = "213"
+                  offsetFromSymbolStart = "6720">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97BEE4CA-49B1-48BA-8E06-1F9ECAF1E560"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E86F57F-3C3E-47D5-89CF-6966A8A71BE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3CFF6D47-DC7D-4B06-BE8B-EDAB19069153"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25B24D5E-0049-43A4-B155-3993A691BAB0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25B24D5E-0049-43A4-B155-3993A691BAB0 - 732c25d5697afaed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "8512">
+               </Location>
+               <Location
+                  uuid = "25B24D5E-0049-43A4-B155-3993A691BAB0 - 732c25d5697afaed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "8492">
+               </Location>
+               <Location
+                  uuid = "25B24D5E-0049-43A4-B155-3993A691BAB0 - 732c25d5697afaed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "250"
+                  endingLineNumber = "250"
+                  offsetFromSymbolStart = "8516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EE1843B-813E-4AB1-83C6-91FE911E8A14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CIFilters/CIFilterView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
+            landmarkName = "applyProcessing(filterName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4EE1843B-813E-4AB1-83C6-91FE911E8A14 - 732c25d5697acb46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "385"
+                  endingLineNumber = "385"
+                  offsetFromSymbolStart = "16856">
+               </Location>
+               <Location
+                  uuid = "4EE1843B-813E-4AB1-83C6-91FE911E8A14 - 732c25d5697acb46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.CIFilterView.applyProcessing(filterName: Swift.String) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/CIFilters/CIFilterView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "385"
+                  endingLineNumber = "385"
+                  offsetFromSymbolStart = "16500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F2394B8-040C-4653-B367-C6E2898B6883"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/Renderer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7146D4C1-97E3-495B-A1FE-FCC987D31C2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/Renderer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7146D4C1-97E3-495B-A1FE-FCC987D31C2E - f11cc7c874af2c2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.Renderer.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/MetalPractice/Renderer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "7146D4C1-97E3-495B-A1FE-FCC987D31C2E - f11cc7c874af2c2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.Renderer.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/MetalPractice/Renderer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "753BE0DD-6142-4C4F-8B05-BCAD39DCF21E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/Renderer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "753BE0DD-6142-4C4F-8B05-BCAD39DCF21E - f11cc7c874af2da7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.Renderer.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/MetalPractice/Renderer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "753BE0DD-6142-4C4F-8B05-BCAD39DCF21E - f11cc7c874af2dc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.Renderer.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/MetalPractice/Renderer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "2216">
+               </Location>
+               <Location
+                  uuid = "753BE0DD-6142-4C4F-8B05-BCAD39DCF21E - f11cc7c874af2de9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MetalPractice.Renderer.draw(in: __C.MTKView) -&gt; ()"
+                  moduleName = "MetalPractice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadnoor/Desktop/MetalPractice/MetalPractice/Renderer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "2216">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "143B62B6-004B-47DA-8C45-592AB58D88F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/Renderer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "draw(in:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBCC7733-5C7D-466A-8169-53CDB29A0E6E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/SwiftUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "createRenderer(device:textureCgImage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9AA6DB4-6964-40E2-9740-C11FC221BDF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MetalPractice/SwiftUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "init(textureCgImage:uiImage:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
