@@ -14,6 +14,7 @@ class Renderer: NSObject {
     
     var vertexBuffer: MTLBuffer!
     var indexBuffer: MTLBuffer!
+    var textureSize: SIMD2<Float>!
     var texture: MTLTexture!
     var sampler: MTLSamplerState!
     
@@ -30,9 +31,8 @@ class Renderer: NSObject {
     
     init(device: MTLDevice, texture: MTLTexture) {
         super.init()
-        
         self.texture = texture
-        print("We ere in renderer class: ",self.texture.height)
+        self.textureSize = SIMD2<Float>(Float(texture.width), Float(texture.height))
         createCommandQueue(device: device)
         createBuffers(device: device)
         buildSamplerState(device: device)
@@ -55,8 +55,8 @@ class Renderer: NSObject {
         let pipelineDescriptor = MTLRenderPipelineDescriptor()
         pipelineDescriptor.vertexFunction = vertexFunction
         pipelineDescriptor.fragmentFunction = fragmentFunction
-        pipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm
-        
+        pipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm_srgb
+
         let vertexDiscriptor = MTLVertexDescriptor()
         
         vertexDiscriptor.attributes[0].format = .float3
@@ -87,7 +87,6 @@ class Renderer: NSObject {
                                          options: [])
         indexBuffer = device.makeBuffer(bytes: indices,
                                         length: MemoryLayout<UInt16>.size * indices.count)
-        print("Buffer created for: ", self.texture.height)
     }
     
     func buildSamplerState(device: MTLDevice) {
@@ -118,6 +117,7 @@ extension Renderer: MTKViewDelegate {
         commandEncoder?.setFragmentTexture(texture, index: 0)
         commandEncoder?.setFragmentSamplerState(sampler, index: 0)
         commandEncoder?.setFragmentBytes(&MetalModel.constants, length: MemoryLayout<Constants>.stride, index: 0)
+        commandEncoder?.setFragmentBytes(&textureSize, length: MemoryLayout<SIMD2<Float>>.stride, index: 1)
         commandEncoder?.drawIndexedPrimitives(type: .triangleStrip,
                                               indexCount: indices.count,
                                               indexType: .uint16,

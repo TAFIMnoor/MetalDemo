@@ -39,57 +39,60 @@ struct MetalHomeView: View {
             })
             .font(.headline)
             
-            HStack {
-                Text("Move X")
-                    .font(.headline)
-                    .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+            ScrollView([.vertical]) {
+                HStack {
+                    Text("Move X")
+                        .font(.headline)
+                        .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+                    
+                    Slider(value: $translationXAxis, in: -1...1)
+                        .padding(EdgeInsets(top: 0.0, leading: 20.0,
+                                            bottom: 10, trailing: 20.0))
+                        .onChange(of: translationXAxis) { value in
+                            MetalModel.constants.moveOnXaxis = Float(value)
+                        }
+                }
                 
-                Slider(value: $translationXAxis, in: -1...1)
-                    .padding(EdgeInsets(top: 0.0, leading: 20.0,
-                                        bottom: 10, trailing: 20.0))
-                    .onChange(of: translationXAxis) { value in
-                        MetalModel.constants.moveOnXaxis = Float(value)
-                    }
-            }
-            
-            HStack {
-                Text("Move Y")
-                    .font(.headline)
-                    .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+                HStack {
+                    Text("Move Y")
+                        .font(.headline)
+                        .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+                    
+                    Slider(value: $translationYAxis, in: -1...1)
+                        .padding(EdgeInsets(top: 0.0, leading: 20.0,
+                                            bottom: 10, trailing: 20.0))
+                        .onChange(of: translationYAxis) { value in
+                            MetalModel.constants.moveOnYaxis = Float(value)
+                        }
+                }
                 
-                Slider(value: $translationYAxis, in: -1...1)
-                    .padding(EdgeInsets(top: 0.0, leading: 20.0,
-                                        bottom: 10, trailing: 20.0))
-                    .onChange(of: translationYAxis) { value in
-                        MetalModel.constants.moveOnYaxis = Float(value)
-                    }
-            }
-            
-            HStack {
-                Text("Zoom")
-                    .font(.headline)
-                    .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+                HStack {
+                    Text("Zoom")
+                        .font(.headline)
+                        .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 5.0))
+                    
+                    Slider(value: $scale, in: 0.2...3)
+                        .padding(EdgeInsets(top: 0.0, leading: 20.0,
+                                            bottom: 10, trailing: 20.0))
+                        .onChange(of: scale) { value in
+                            MetalModel.constants.scale = Float(value)
+                        }
+                }
                 
-                Slider(value: $scale, in: 0.2...1)
-                    .padding(EdgeInsets(top: 0.0, leading: 20.0,
-                                        bottom: 10, trailing: 20.0))
-                    .onChange(of: scale) { value in
-                        MetalModel.constants.scale = Float(value)
-                    }
+                HStack {
+                    Text("Rotate")
+                        .font(.headline)
+                        .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 1.0))
+                    
+                    Slider(value: $rotation, in: -5...5)
+                        .padding(EdgeInsets(top: 0.0, leading: 20.0,
+                                            bottom: 20, trailing: 20.0))
+                        .onChange(of: rotation) { value in
+                            MetalModel.constants.angleOfRotation = Float(value)
+                        }
+                }
             }
-            
-            HStack {
-                Text("Rotate")
-                    .font(.headline)
-                    .padding(EdgeInsets(top: 0.0, leading: 5.0, bottom: 15.0, trailing: 1.0))
-                
-                Slider(value: $rotation, in: -5...5)
-                    .padding(EdgeInsets(top: 0.0, leading: 20.0,
-                                        bottom: 10, trailing: 20.0))
-                    .onChange(of: rotation) { value in
-                        MetalModel.constants.angleOfRotation = Float(value)
-                    }
-            }
+            .frame(height: 100)
             
         }
         .onChange(of: inputImage) { _ in

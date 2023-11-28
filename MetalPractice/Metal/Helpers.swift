@@ -19,8 +19,7 @@ struct Constants {
     var moveOnYaxis: Float = 0.0
     var scale: Float = 1.0
     var angleOfRotation: Float = 0.0
-    var size: SIMD2<Float> = SIMD2<Float>(Float(UIScreen.main.bounds.width),
-                                          Float(UIScreen.main.bounds.height * 0.5))
+    var size: SIMD2<Float> = SIMD2<Float>(Float(UIScreen.main.bounds.width), Float(UIScreen.main.bounds.height * 0.7))
     var contentMode: Float = 1.0
 }
 

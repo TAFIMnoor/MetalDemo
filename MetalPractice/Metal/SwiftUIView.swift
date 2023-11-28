@@ -29,7 +29,6 @@ public struct SwiftUIView: UIViewRepresentable {
     }
     
     public func updateUIView(_ uiView: UIView, context: Context) {
-        print("updated")
         handleUpdateUIView?(uiView, context)
     }
 }
@@ -58,7 +57,7 @@ class MetalView: MTKView {
         guard let defaultDevice = device else {
             fatalError("Device loading error")
         }
-        colorPixelFormat = .bgra8Unorm
+        colorPixelFormat = .bgra8Unorm_srgb
         // Our clear color, can be set to any color
         clearColor = MTLClearColor(red: 0.1, green: 0.57, blue: 0.25, alpha: 1)
         createRenderer(device: defaultDevice, textureCgImage: textureCgImage)
@@ -71,7 +70,6 @@ class MetalView: MTKView {
     func createRenderer(device: MTLDevice, textureCgImage: CGImage){
         do {
             self.texture = try loadTexture(device: device, cgImage: textureCgImage)
-            print("Texture is changing:", texture.height)
         } catch {
             print("Error occured in loadTexture Function: ", "\(error.localizedDescription)")
         }
